@@ -1,11 +1,21 @@
+import Link from 'next/link';
 import { scrapeSite } from "../../lib/rodong-scraper";
 import _ from "lodash";
 
 export default function Article({ article }) {
+  const texts = article?.paragraphs;
+  console.log('textiu', article);
   return (
     <div>
+      <div>
+        <Link href="/">Back</Link>
+      </div>
       <h1>{article.title}</h1>
-      <div>text goes hard</div>
+      <div>
+        {texts.map((text, idx) => (
+          <p key={`a-${idx}`}>{text}</p>
+        ))}
+      </div>
     </div>
   );
 }

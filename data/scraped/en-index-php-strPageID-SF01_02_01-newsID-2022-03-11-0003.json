@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<META content="Rodong Sinmun,Rodong,Korea,North Korea,N.Korea,Democratic People's Republic of Korea,DPRK,PRK,Supreme Leaders' Activities,Kim Jong Il,Kim Jong Un,In DPRK,Politics,Economy,Society,Social life,Culture,Art,Inter-Korean,Reunification,North,South,Overseas Koreans,Overseas Korean,International,Foreign,Editorial,Leading Article/Articles,Article,Political Essays,Political Essay,Commentary,Commentaries,Document,Official Document" 
+	name=keywords>
+	<META content="organ of the Central Committee of the Workers' Party of Korea,C.C.,WPK organ,WPK organ,WPK,C.C.,WPK,C.C.,WPK newspaper,WPK newspaper" name=description>
+	<title>Rodong Sinmun</title>
+	<link rel="stylesheet" href="css/global.css" type="text/css"/>
+	<link rel="stylesheet" href="css/SF01.css" type="text/css"/>
+	<link rel="stylesheet" href="css/dhtmlxcalendar.css" type="text/css"/>
+	<link rel="stylesheet" href="css/scrollable-horizontal.css" type="text/css"/>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="js/dhtmlxcalendar.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script language="javascript">		
+		function article_open(u){
+			var t,l,w,h;
+			w = 1000;h = 500;
+			t=(screen.height-h)/2;
+			l=(screen.width-w)/2;
+			window.open(u, '로동신문','width='+w+',height=' + h +',top=' + t + ',left=' + l +	',scrollbars=yes,menubar=no,directories=no,location=no,status=0,resizable=yes');			
+		}
+		var myCalendar;
+		function doOnLoad() {
+			myCalendar = new dhtmlXCalendarObject(["calendar"]);
+			myCalendar.hideTime();
+			myCalendar.setDate("2022-03-11");
+			myCalendar.attachEvent("onClick", function (){
+				myCalendar.hide();
+				window.location.href = "index.php?strPageID=SF01_01_03&strDate=" + myCalendar.getFormatedDate("%Y-%m-%d", myCalendar.getDate());
+			});
+
+			var root = $("#scroller1").scrollable({circular: true}).autoscroll({ autoplay: true });
+			var root = $("#scroller2").scrollable({circular: true}).autoscroll({ autoplay: true });
+		}
+
+	</script>
+</head>
+<body onload="doOnLoad();">
+<center>
+<div class="ArticleHeaderContainer">
+	<div class="ArticleMenuContainer">
+		<div class="ArticleMenuDate">Mar. 11,&nbsp;Juche 111 (2022)&nbsp;&nbsp;Friday</div>
+	</div>
+	<div class="ArticleMarkContainer">
+		<div class="ArticleMark"><img src="images/page_article_mark.PNG"></div>
+	</div>
+	<div class="ArticleRightContainer">
+		<div class="ArticleRightMark"><img src="images/page_article_markEN.PNG"></div>
+	</div>
+</div>
+<style>
+	p {TEXT-INDENT: 5px;	MARGIN-BOTTOM: 5px; MARGIN-TOP: 5px;LINE-HEIGHT: 180%;}
+</style>
+<br>
+<table width="900" height="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top">
+	<p class="ArticleContent" align="center"><font style="color:#000080;font-weight:bold;font-size:18px;font-family:Verdana, Arial, sans-serif;">Strong Support to Railway</font></p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">&nbsp;</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Support to the railway gains momentum in the DPRK.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">With the day of support to railways as an occasion, Pyongyang City and Kangwon Province planted good species of trees in the vicinity of railways and did gutter-cleaning and stone-breaking through a mass campaign.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">North Phyongan, North Hwanghae and South Hwanghae provinces readjusted a large area of incline and built retaining walls at dozens of places.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Rason City overhauled railways and spruced up railway lines and station yard.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Officials of North Phyongan Province took timely measures in relevant railway sections and sent trackmen&#039;s teams a large amount of steel and welding rods needed for producing railway fixtures by establishing social atmosphere of support to railways.</p><p class="ArticleContent" align="right">Rodong Sinmun</p>	</td>
+  </tr>
+</table>
+<div class="ArticleFooterContainer">
+	<div class="ArticleFooterCopy">Copyright @ 2022 by The Rodong Sinmun. All rights reserved.</div>
+</div>
+<BR></center>
+
+</body>
+</html>

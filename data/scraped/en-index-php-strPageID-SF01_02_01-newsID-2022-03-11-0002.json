@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<META content="Rodong Sinmun,Rodong,Korea,North Korea,N.Korea,Democratic People's Republic of Korea,DPRK,PRK,Supreme Leaders' Activities,Kim Jong Il,Kim Jong Un,In DPRK,Politics,Economy,Society,Social life,Culture,Art,Inter-Korean,Reunification,North,South,Overseas Koreans,Overseas Korean,International,Foreign,Editorial,Leading Article/Articles,Article,Political Essays,Political Essay,Commentary,Commentaries,Document,Official Document" 
+	name=keywords>
+	<META content="organ of the Central Committee of the Workers' Party of Korea,C.C.,WPK organ,WPK organ,WPK,C.C.,WPK,C.C.,WPK newspaper,WPK newspaper" name=description>
+	<title>Rodong Sinmun</title>
+	<link rel="stylesheet" href="css/global.css" type="text/css"/>
+	<link rel="stylesheet" href="css/SF01.css" type="text/css"/>
+	<link rel="stylesheet" href="css/dhtmlxcalendar.css" type="text/css"/>
+	<link rel="stylesheet" href="css/scrollable-horizontal.css" type="text/css"/>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="js/dhtmlxcalendar.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script language="javascript">		
+		function article_open(u){
+			var t,l,w,h;
+			w = 1000;h = 500;
+			t=(screen.height-h)/2;
+			l=(screen.width-w)/2;
+			window.open(u, '로동신문','width='+w+',height=' + h +',top=' + t + ',left=' + l +	',scrollbars=yes,menubar=no,directories=no,location=no,status=0,resizable=yes');			
+		}
+		var myCalendar;
+		function doOnLoad() {
+			myCalendar = new dhtmlXCalendarObject(["calendar"]);
+			myCalendar.hideTime();
+			myCalendar.setDate("2022-03-11");
+			myCalendar.attachEvent("onClick", function (){
+				myCalendar.hide();
+				window.location.href = "index.php?strPageID=SF01_01_03&strDate=" + myCalendar.getFormatedDate("%Y-%m-%d", myCalendar.getDate());
+			});
+
+			var root = $("#scroller1").scrollable({circular: true}).autoscroll({ autoplay: true });
+			var root = $("#scroller2").scrollable({circular: true}).autoscroll({ autoplay: true });
+		}
+
+	</script>
+</head>
+<body onload="doOnLoad();">
+<center>
+<div class="ArticleHeaderContainer">
+	<div class="ArticleMenuContainer">
+		<div class="ArticleMenuDate">Mar. 11,&nbsp;Juche 111 (2022)&nbsp;&nbsp;Friday</div>
+	</div>
+	<div class="ArticleMarkContainer">
+		<div class="ArticleMark"><img src="images/page_article_mark.PNG"></div>
+	</div>
+	<div class="ArticleRightContainer">
+		<div class="ArticleRightMark"><img src="images/page_article_markEN.PNG"></div>
+	</div>
+</div>
+<style>
+	p {TEXT-INDENT: 5px;	MARGIN-BOTTOM: 5px; MARGIN-TOP: 5px;LINE-HEIGHT: 180%;}
+</style>
+<br>
+<table width="900" height="80%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td valign="top">
+	<p class="ArticleContent" align="center"><font style="color:#000080;font-weight:bold;font-size:18px;font-family:Verdana, Arial, sans-serif;">Preparations for Exhibition to Support Education Brisk in DPRK</font></p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">&nbsp;</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Preparations for exhibition to support education are brisk in all provinces, cities and counties of the DPRK.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Pyongyang City is pushing ahead with the work to provide educational information equipment, apparatuses for experiment and practice and school things badly needed for improving educational conditions and environments.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">Amid the hot wind for supporting education, North Hwanghae Province is preparing materials for the exhibition.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">North Phyongan Province is directing its efforts to securing means needed for renovating schools and kindergartens into model ones and putting the education on an IT basis and to arranging materials needed for building the educational facilities.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">The cities and counties of the country are carrying on the preparations for the exhibition in close combination with the model-education county movement in order to make the exhibition contribute to thoroughly establishing the trait of placing importance on education throughout the society and further strengthening the material and technical foundation of education.</p><p class="ArticleContent" style="text-align:justify;text-justify:inter-ideograph">&nbsp;</p><p class="ArticleContent" style="text-align: center;"><img src="/article_contents_en/2022/03/11/photo/4.jpg" width="350" height="213" align="middle" alt="" /></p><p class="ArticleContent" align="right">Rodong Sinmun</p>	</td>
+  </tr>
+</table>
+<div class="ArticleFooterContainer">
+	<div class="ArticleFooterCopy">Copyright @ 2022 by The Rodong Sinmun. All rights reserved.</div>
+</div>
+<BR></center>
+
+</body>
+</html>

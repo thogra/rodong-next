@@ -1,0 +1,102 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<META content="Rodong Sinmun,Rodong,Korea,North Korea,N.Korea,Democratic People's Republic of Korea,DPRK,PRK,Supreme Leaders' Activities,Kim Jong Il,Kim Jong Un,In DPRK,Politics,Economy,Society,Social life,Culture,Art,Inter-Korean,Reunification,North,South,Overseas Koreans,Overseas Korean,International,Foreign,Editorial,Leading Article/Articles,Article,Political Essays,Political Essay,Commentary,Commentaries,Document,Official Document" 
+	name=keywords>
+	<META content="organ of the Central Committee of the Workers' Party of Korea,C.C.,WPK organ,WPK organ,WPK,C.C.,WPK,C.C.,WPK newspaper,WPK newspaper" name=description>
+	<title>Rodong Sinmun</title>
+	<link rel="stylesheet" href="css/global.css" type="text/css"/>
+	<link rel="stylesheet" href="css/SF01.css" type="text/css"/>
+	<link rel="stylesheet" href="css/dhtmlxcalendar.css" type="text/css"/>
+	<link rel="stylesheet" href="css/scrollable-horizontal.css" type="text/css"/>
+	<script type="text/javascript" src="js/function.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+	<script type="text/javascript" src="js/dhtmlxcalendar.min.js"></script>
+	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
+	<script language="javascript">		
+		function article_open(u){
+			var t,l,w,h;
+			w = 1000;h = 500;
+			t=(screen.height-h)/2;
+			l=(screen.width-w)/2;
+			window.open(u, '로동신문','width='+w+',height=' + h +',top=' + t + ',left=' + l +	',scrollbars=yes,menubar=no,directories=no,location=no,status=0,resizable=yes');			
+		}
+		var myCalendar;
+		function doOnLoad() {
+			myCalendar = new dhtmlXCalendarObject(["calendar"]);
+			myCalendar.hideTime();
+			myCalendar.setDate("2022-03-11");
+			myCalendar.attachEvent("onClick", function (){
+				myCalendar.hide();
+				window.location.href = "index.php?strPageID=SF01_01_03&strDate=" + myCalendar.getFormatedDate("%Y-%m-%d", myCalendar.getDate());
+			});
+
+			var root = $("#scroller1").scrollable({circular: true}).autoscroll({ autoplay: true });
+			var root = $("#scroller2").scrollable({circular: true}).autoscroll({ autoplay: true });
+		}
+
+	</script>
+</head>
+<body onload="doOnLoad();">
+<center>
+<table width="1000" border="0" cellpadding="0" cellspacing="0" style="margin:10 0 0 0;">
+	<tr>
+		<td width="200"><a href="index.php"><img src="images/page_top_mark.PNG" border=0></a></td>
+		<td width="15">&nbsp;</td>
+		<td>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0">
+				<tr><td>
+					<div class="TopMarkDate">Mar. 11,&nbsp;Juche 111 (2022)&nbsp;&nbsp;Friday</div>
+					<div class="TopSearch"><a href="index.php?strPageID=SF01_03_01">Search</a> 
+					<input type="text" id="calendar" readonly="true" value="Date"></div>
+					
+					
+					<div class="TopLang">
+						<a href="../ko/" style="font:12px prk p gothic,wklghotic,gulim">조선어</a>
+						<a href="../en/" style="font-family:arial">English</a>
+						<a href="../cn/" style="font-family:simsun">中 文</a>
+					</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					<div class="TopMenu">
+						<a href="index.php?strPageID=SF01_01_02&iMenuID=1&iSubMenuID=1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WPK General Secretary<br><font size="4">Kim Jong Un</font>’s Revolutionary Activities</a>
+						<a href="index.php?strPageID=SF01_01_02&iMenuID=7">In DPRK</a> 
+						<a href="index.php?strPageID=SF01_01_02&iMenuID=8">Inter-Korean</a> 
+						<a href="index.php?strPageID=SF01_01_02&iMenuID=9">International</a> 
+						<a href="index.php?strPageID=SF01_01_02&iMenuID=5">Photo</a>  
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td  colspan="3" background="images/page_top_bg.PNG" height="15">&nbsp;</td>
+	</tr>
+</table><br>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0"><tr><td><center><div class="ListNewsContainer"><div class="ListNewsNavi" style="border-bottom:1px solid #6B95AA"><span class="ListNewsTitleLeft"><b>◇ News</b></span></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">1.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-11-0004')">Design He Instructed in Person Nine Times</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.11</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">2.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-11-0005')">Projects for Juche-oriented Industry Actively Pushed Ahead with</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.11</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">3.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-11-0003')">Strong Support to Railway</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.11</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">4.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-11-0002')">Preparations for Exhibition to Support Education Brisk in DPRK</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.11</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">5.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0007')">Electricity Production Increases Day after Day</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">6.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0004')">Output of Their Organic Compound Fertilizer Increased</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">7.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0002')">March 8 International Women&#039;s Day Marked in DPRK</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">8.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0003')">2022 Horse-riding Games for March 8 International Women&#039;s Day Held</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">9.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0006')">Dancing Parties Mark International Women&#039;s Day</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">10.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-10-0005')">AFC Women&#039;s Football Day Marked</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.10</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">11.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0001')">Respected Comrade <nobr>Kim Jong Un</nobr> Sends Greetings to Syrian President</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">12.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0005')">His Pleasure Found in People’s Happiness</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">13.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0004')">Women&#039;s Sports and Amusement Games Mark March 8 International Women&#039;s Day</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">14.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0003')">Excellent Educators Help Rural Schools in DPRK</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">15.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0007')">Sincere Support to Coal-mining Front</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">16.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0002')">Preparations for Supplying Irrigation Water Brisk in DPRK</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">17.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-09-0006')">Subdivisions in March and Folk Customs</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.09</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">18.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-08-0001')">Exhibition of August 3 Consumer Goods Held</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.08</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">19.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-08-0002')">Foundation for Milk Powder Production Being Consolidated</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.08</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">20.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-07-0002')">Forest Restoration Campaign Starts Thus</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.07</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">21.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-07-0001')">Construction Forces Strengthened</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.07</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">22.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0007')">DPRK Premier Inspects Industrial Establishments</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">23.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0005')">Anniversary of Respected Comrade <nobr>Kim Jong Un</nobr>&#039;s Official Goodwill Visit to Vietnam Marked</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">24.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0006')">﻿Staff Members of Vietnamese Embassy Visit Korean Revolution Museum</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">25.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0003')">Ninth Congress of KCU to Be Held</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">26.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0002')">NADA and Academy of Defence Science Conduct Another Important Test for Developing Reconnaissance Satellite</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">27.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0008')">Meaningful Trees Have Grown Giant</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">28.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0001')">Epidemic Prevention Campaign Intensified in DPRK</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">29.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-06-0004')">Plans for February Carried out in Various Economic Sectors of DPRK</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.06</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">30.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-05-0003')">Respected Comrade <nobr>Kim Jong Un</nobr> Receives Congratulatory Messages and Letters from Different Countries</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.05</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">31.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-05-0005')">3rd Enlarged Plenary Meeting of 9th UAWK Central Committee Held</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.05</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">32.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-05-0004')">University Graduates Volunteer to Work at Ryonpho Greenhouse Farm</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.05</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">33.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-05-0001')">Ri People’s Hospitals and Clinics Are Equipped with New Medical Appliances</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.05</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">34.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-05-0002')">5th Meeting of 30th Central Committee of UDKWJ Held</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.05</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">35.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-04-0001')">Participants in 2nd Conference of Secretaries of Primary Committees of WPK Vow Loyalty</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.04</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">36.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-04-0002')">Participants in 2nd Conference of Secretaries of Primary Committees of WPK Enjoy Art Performance</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.04</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">37.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-04-0005')">Respected General Secretary Always Takes Care of His People</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.04</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">38.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-04-0003')">Tree-planting Day Observed in DPRK</a> </div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.04</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">39.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-04-0004')">Songdan, a Scenic Spot of DPRK Famous for Pine Forest</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.04</div></div><div class="ListNewsLineContainer"><div class="ListNewsLineNo">40.</div><div class="ListNewsLineTitleW"><a href="javascript:article_open('index.php?strPageID=SF01_02_01&newsID=2022-03-03-0005')">DPRK Premier Inspects Various Sectors of South Hwanghae Province</a> <img src="images/icon_photo.gif"></div><div class="ListNewsLineWriter">Rodong Sinmun</div><div class="ListNewsLineDate">2022.03.03</div></div></center></td></tr></table><div class="FooterContainer" style="padding:10 0 0 0">
+	<hr size=2 color=#6B95AA>
+</div>
+<div class="FooterContainer">
+	<div class="FooterMenu">
+		<p>
+			<a href="index.php?strPageID=SF01_01_02&iMenuID=1&iSubMenuID=1">WPK General Secretary <font size="3"><b>Kim Jong Un</b></font>’s Revolutionary Activities</a>
+			<a href="index.php?strPageID=SF01_01_02&iMenuID=7">In DPRK</a> 
+			<a href="index.php?strPageID=SF01_01_02&iMenuID=8">Inter-Korean</a> 
+			<a href="index.php?strPageID=SF01_01_02&iMenuID=9">International</a> 
+			<a href="index.php?strPageID=SF01_01_02&iMenuID=5">Photo</a>
+		</p>
+	</div>
+	<div class="FooterTitle">&nbsp;Copyright @ 2022 by The Rodong Sinmun.&nbsp;&nbsp; All rights reserved.</div>
+	<div class="FooterMark"><img src="images/page_top_markEN.PNG" onclick="jsGoToPage('', 'SF01_01_01')" style="cursor:pointer;"></div>
+</div>
+<div class="FooterContainer">
+	<hr size=2 color=#6B95AA>
+</div>
+<BR>
+<BR></center>
+
+</body>
+</html>

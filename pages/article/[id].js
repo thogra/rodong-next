@@ -4,7 +4,6 @@ import _ from "lodash";
 
 export default function Article({ article }) {
   const texts = article?.paragraphs;
-  console.log('textiu', article);
   return (
     <div>
       <div>

@@ -10,7 +10,7 @@ export default function News({ links }) {
         <title>Rodong Sinmun 2.0</title>
       </Head>
       <section className={styles.section}>
-      <h1>Get some</h1>
+      <h1>Senaste nytt</h1>
       <div>
         {links.map(
           (link) =>

@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #ddd;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -14,4 +14,34 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Sueca Text";
+  src: url("/fonts/sueca-text/sueca-text-regular.woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SuecaWeb Hd";
+  src: url("/fonts/sueca-web-hd/sueca-web-hd-light.woff") format("woff");
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SuecaWeb Hd";
+  src: url("/fonts/sueca-web-hd/sueca-web-hd-semibold.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SuecaWeb Hd";
+  src: url("/fonts/sueca-web-hd/sueca-web-hd-bold.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
 }

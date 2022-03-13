@@ -3,7 +3,7 @@ import styles from "./latest-teaser.module.css";
 
 export default function LatestTeaser({ link }) {
   return (
-    <div className={styles.latest_teaser_box} key={`i-${link.href}`}>
+    <div className={styles.latest_teaser_box}>
       <span className={styles.meta_container}>
         <time className={styles.meta_time}>4 min</time>
         <span className={styles.meta_divider}> </span>

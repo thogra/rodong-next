@@ -13,9 +13,9 @@ export default function News({ links }) {
       <section className={styles.section}>
       <div>
         {links.map(
-          (link) =>
+          (link, idx) =>
             link?.article?.id && (
-              <LatestTeaser link={link} />
+              <LatestTeaser key={`k-${idx}`} link={link} />
             )
         )}
       </div>
